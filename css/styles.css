@@ -461,13 +461,10 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 1px solid #404BBF;
-    color: #404bbf;
+    border: 1px solid var(--active-color);
+    color: var(--active-color);
 }
-.customers-icons:hover,
-.customers-icons:focus {
-    fill: #404BBF;
-}
+
 
 
 /* ================ Customers ==================== */
