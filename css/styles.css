@@ -227,17 +227,14 @@ img {
 /* ================= HERO ====================== */
 .hero-bgr{
    
-    
+   text-align: center;
     background: var(--sekondory-background);
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/hero-bgr.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
     max-width: 1440px;
-
-    text-align: center;
     padding: 188px 0;
-
+    
 }
 
 .hero {
@@ -461,12 +458,12 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 1px solid var(--active-color)
+    border: 1px solid var(--active-color);
     color: var(var(--active-color));
 }
 .customers-icons:hover,
 .customers-icons:focus {
-    fill: currentColor;
+    fill: var(--active-color);
 }
 
 
@@ -592,11 +589,11 @@ img {
 }
 
 .example-item {
-    display: inline-block;
+    display: flex;
 }
 
-.example-item:hover,
-.example-item:focus {
+.example-item-link:hover,
+.example-item-link:focus {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
