@@ -462,7 +462,7 @@ img {
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid var(--active-color);
-    color: var(var(--active-color));
+    color: var(#404bbf);
 }
 .customers-icons:hover,
 .customers-icons:focus {
