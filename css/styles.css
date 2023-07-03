@@ -461,12 +461,12 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 1px solid var(--active-color);
-    fill: var(--active-color);
+    border: 1px solid #404BBF;
+    color: #404bbf;
 }
 .customers-icons:hover,
 .customers-icons:focus {
-    fill: var(--active-color);
+    fill: #404BBF;
 }
 
 
