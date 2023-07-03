@@ -234,6 +234,8 @@ img {
     background-size: cover;
     background-position: center center;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 188px 0;
     
 }
@@ -330,9 +332,7 @@ img {
 }
 
 
-.values-container{
-    
-}
+
 
 
 .values-list {
@@ -376,8 +376,8 @@ img {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 32px;
-    padding-bottom: 0;
-    margin-bottom: 8px;
+    padding-bottom: 32;
+    
 }
 
 .team-name {
@@ -388,11 +388,12 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 0px;
-    padding-right: 16px;
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
+
+.team-paragraf {
+    margin-bottom: 8px;
+}
+
 
 .team-sociale-item {
     width: 40px;
@@ -413,7 +414,7 @@ img {
 
 .team-social-link:hover,
 .team-social-link:focus {
-    background-color: var(--team-link-active)
+    background-color: var(--active-color)
 }
 
 /* ================ Customers ==================== */
@@ -511,7 +512,7 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-social-link {
+.footer-social-kontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -537,6 +538,24 @@ img {
     display: flex;
     padding: 0;
     gap: 16px;
+}
+
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--btn-hero-background);
+    border-radius: 50%;
+    padding: 12px;
+    flex-shrink: 0;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--team-link-active)
 }
 /* ================= /FOOTER =====================FOOTER */
 
